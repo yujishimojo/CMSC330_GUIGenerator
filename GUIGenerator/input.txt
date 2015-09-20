@@ -1,0 +1,21 @@
+Window "Calculator" (350,350) Layout Flow:
+	TextField 20;
+	Panel Layout Grid(4,3,5,5);
+		Button "7";
+		Button "8";
+		Button "9";
+		Button "4";
+		Button "5";
+		Button "6";
+		Button "1";
+		Button "2";
+		Button "3";
+		Button "0";
+		Button "00";
+		Button ".";
+		Group Radio "ordinal";
+		Group Radio "binary";
+		Group Radio "octal";
+		Group Radio "hex";
+	End;
+End;
